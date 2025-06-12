@@ -37,13 +37,21 @@ public class ShopEditor : Form
         categoryCombo = new ComboBox { Dock = DockStyle.Top, DropDownStyle = ComboBoxStyle.DropDownList };
         categoryCombo.SelectedIndexChanged += (s,e)=> UpdateItemList();
         itemList = new ListBox { Dock = DockStyle.Top, Height = 120 };
-        grid = new DataGridView { Dock = DockStyle.Fill, ColumnCount = 8, RowCount = 15, AllowUserToAddRows=false, AllowUserToDeleteRows=false, RowHeadersVisible=false, ColumnHeadersVisible=false, ReadOnly=true};
+        grid = new DataGridView {
+            Dock = DockStyle.Fill,
+            ColumnCount = 8,
+            AllowUserToAddRows = false,
+            AllowUserToDeleteRows = false,
+            RowHeadersVisible = false,
+            ColumnHeadersVisible = false,
+            ReadOnly = true
+        };
+        grid.RowTemplate.Height = 32;
+        grid.RowCount = 15;
         grid.CellClick += Grid_CellClick;
         grid.CellMouseDown += Grid_CellMouseDown;
         for(int i=0;i<8;i++)
             grid.Columns[i].Width = 32;
-        for(int i=0;i<15;i++)
-            grid.Rows[i].Height = 32;
         loadButton = new Button { Text = "Load Shop" };
         loadButton.Click += (s,e)=>LoadShop();
         saveButton = new Button { Text = "Save Shop" };
