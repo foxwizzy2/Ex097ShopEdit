@@ -1,0 +1,128 @@
+//=====================================
+//SWORDS
+//=====================================
+0
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 0 0 1 2 1 1 1 "Kris" 6
+1 0 0 1 3 1 1 1 "Short Sword" 3
+end
+
+//=====================================
+//AXES
+//=====================================
+1
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 0 0 1 3 1 1 1 "Small Axe" 1
+end
+
+//=====================================
+//MACES
+//=====================================
+2
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 0 0 1 3 1 1 1 "Mace" 7
+end
+
+//=====================================
+//SPEARS
+//=====================================
+3
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 0 22 2 4 1 1 1 "Light Spear" 42
+end
+
+//=====================================
+//BOWS & CROSSBOWS
+//=====================================
+4
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 1 24 2 3 1 1 1 "Short Bow" 2
+end
+
+//=====================================
+//STAFFS
+//=====================================
+5
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 0 0 1 3 1 1 1 "Skull Staff" 6
+end
+
+//=====================================
+//SHIELDS
+//=====================================
+6
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 1 0 2 2 1 1 1 "Small Shield" 3
+end
+
+//=====================================
+//HELMS
+//=====================================
+7
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 2 0 2 2 1 1 1 "Bronze Helm" 16
+end
+
+//=====================================
+//ARMORS
+//=====================================
+8
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 3 0 2 2 1 1 1 "Bronze Armor" 18
+end
+
+//=====================================
+//PANTS
+//=====================================
+9
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 4 0 2 2 1 1 1 "Bronze Pants" 15
+end
+
+//=====================================
+//GLOVES
+//=====================================
+10
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 5 0 2 2 1 1 1 "Bronze Gloves" 13
+end
+
+//=====================================
+//BOOTS
+//=====================================
+11
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 6 0 2 2 1 1 1 "Bronze Boots" 12
+end
+
+//=====================================
+//WINGS & EXTRAS 1
+//=====================================
+12
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 7 0 3 2 1 1 0 "Wings of Elf" 100
+end
+
+//=====================================
+//PETS, RINGS, PENDANTS & EXTRAS 2
+//=====================================
+13
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 8 0 1 1 1 1 1 "Guardian Angel" 23
+end
+
+//=====================================
+//JEWELS, CONSUMABLES & EXTRAS 3
+//=====================================
+14
+//Index Slot Skill Width Height Serial Option Drop Name Value Level
+0 -1 0 1 1 1 1 1 "Apple" 5 1
+end
+
+//=====================================
+//SCROLLS
+//=====================================
+15
+//Index Slot Skill Width Height Serial Option Drop Name Level
+0 -1 0 1 2 1 1 1 "Scroll of Poison" 30
+end
