@@ -205,6 +205,7 @@ public class ShopEditor : Form
             }
     }
 
+    [STAThread]
     public static void Main()
     {
         Application.EnableVisualStyles();
