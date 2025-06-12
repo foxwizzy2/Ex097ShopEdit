@@ -12,6 +12,7 @@ You can also build from the command line with the .NET SDK:
 dotnet build -c Release
 ```
 The executable will be under `bin/Release/net8.0-windows/`.
+For Linux users, run `./setup.sh` first to install the required .NET SDK.
 
 ## Usage
 The interface lets you select an item category from the combo box, choose an item from the list box, and place it on the 8×15 grid. Right click a placed item to remove it. Use **Load Shop** to open an existing `shop.txt` file and **Save Shop** to export the current layout. Item images are loaded automatically from `Data/Img/` if present with `.png`, `.jpg`, or `.gif` extensions.
