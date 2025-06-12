@@ -37,15 +37,23 @@ public class ShopEditor : Form
         categoryCombo = new ComboBox { Dock = DockStyle.Top, DropDownStyle = ComboBoxStyle.DropDownList };
         categoryCombo.SelectedIndexChanged += (s,e)=> UpdateItemList();
         itemList = new ListBox { Dock = DockStyle.Top, Height = 120 };
+        itemList.SelectedIndexChanged += ItemList_SelectedIndexChanged;
         grid = new DataGridView {
             Dock = DockStyle.Fill,
             ColumnCount = 8,
             AllowUserToAddRows = false,
             AllowUserToDeleteRows = false,
+            AllowUserToResizeColumns = false,
+            AllowUserToResizeRows = false,
+            MultiSelect = false,
             RowHeadersVisible = false,
             ColumnHeadersVisible = false,
-            ReadOnly = true
+            ReadOnly = true,
+            SelectionMode = DataGridViewSelectionMode.CellSelect,
+            BackgroundColor = Color.DimGray,
+            EnableHeadersVisualStyles = false
         };
+        grid.DefaultCellStyle.BackColor = Color.DimGray;
         grid.RowTemplate.Height = 32;
         grid.RowCount = 15;
         grid.CellClick += Grid_CellClick;
@@ -130,21 +138,22 @@ public class ShopEditor : Form
             {
                 gridData[y,x]=null;
                 grid.Rows[y].Cells[x].Value = null;
-                grid.Rows[y].Cells[x].Style.BackColor = Color.White;
+                grid.Rows[y].Cells[x].Style.BackColor = Color.DimGray;
             }
     }
 
-    protected override void OnShown(EventArgs e)
+    private void ItemList_SelectedIndexChanged(object sender, EventArgs ev)
     {
-        base.OnShown(e);
-        itemList.SelectedIndexChanged += (s,ev)=>{
-            var idx = itemList.SelectedIndex;
-            if(idx>=0)
-            {
-                int cid = GetSelectedCategoryId();
-                selectedItem = categories[cid].Items[idx];
-            }
-        };
+        var idx = itemList.SelectedIndex;
+        if(idx>=0)
+        {
+            int cid = GetSelectedCategoryId();
+            selectedItem = categories[cid].Items[idx];
+        }
+        else
+        {
+            selectedItem = null;
+        }
     }
 
     private void LoadShop()
@@ -192,7 +201,7 @@ public class ShopEditor : Form
             {
                 gridData[y,x]=null;
                 grid.Rows[y].Cells[x].Value=null;
-                grid.Rows[y].Cells[x].Style.BackColor = Color.White;
+                grid.Rows[y].Cells[x].Style.BackColor = Color.DimGray;
             }
     }
 

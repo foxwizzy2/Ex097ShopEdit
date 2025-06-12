@@ -5,6 +5,7 @@
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 0 0 1 2 1 1 1 "Kris" 6
 1 0 0 1 3 1 1 1 "Short Sword" 3
+2 0 0 1 3 1 1 1 "Rapier" 9
 end
 
 //=====================================
@@ -13,6 +14,7 @@ end
 1
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 0 0 1 3 1 1 1 "Small Axe" 1
+1 0 0 1 3 1 1 1 "Hand Axe" 4
 end
 
 //=====================================
@@ -21,6 +23,7 @@ end
 2
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 0 0 1 3 1 1 1 "Mace" 7
+1 0 19 1 3 1 1 1 "Morning Star" 13
 end
 
 //=====================================
@@ -29,6 +32,7 @@ end
 3
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 0 22 2 4 1 1 1 "Light Spear" 42
+1 0 0 2 4 1 1 1 "Spear" 23
 end
 
 //=====================================
@@ -37,6 +41,7 @@ end
 4
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 1 24 2 3 1 1 1 "Short Bow" 2
+1 1 24 2 3 1 1 1 "Bow" 8
 end
 
 //=====================================
@@ -45,6 +50,7 @@ end
 5
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 0 0 1 3 1 1 1 "Skull Staff" 6
+1 0 0 2 3 1 1 1 "Angelic Staff" 18
 end
 
 //=====================================
@@ -53,6 +59,7 @@ end
 6
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 1 0 2 2 1 1 1 "Small Shield" 3
+1 1 0 2 2 1 1 1 "Horn Shield" 9
 end
 
 //=====================================
@@ -61,6 +68,7 @@ end
 7
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 2 0 2 2 1 1 1 "Bronze Helm" 16
+1 2 0 2 2 1 1 1 "Dragon Helm" 57
 end
 
 //=====================================
@@ -69,6 +77,7 @@ end
 8
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 3 0 2 2 1 1 1 "Bronze Armor" 18
+1 3 0 2 3 1 1 1 "Dragon Armor" 59
 end
 
 //=====================================
@@ -77,6 +86,7 @@ end
 9
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 4 0 2 2 1 1 1 "Bronze Pants" 15
+1 4 0 2 2 1 1 1 "Dragon Pants" 55
 end
 
 //=====================================
@@ -85,6 +95,7 @@ end
 10
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 5 0 2 2 1 1 1 "Bronze Gloves" 13
+1 5 0 2 2 1 1 1 "Dragon Gloves" 52
 end
 
 //=====================================
@@ -93,6 +104,7 @@ end
 11
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 6 0 2 2 1 1 1 "Bronze Boots" 12
+1 6 0 2 2 1 1 1 "Dragon Boots" 54
 end
 
 //=====================================
@@ -101,6 +113,7 @@ end
 12
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 7 0 3 2 1 1 0 "Wings of Elf" 100
+1 7 0 5 3 1 1 0 "Wings of Heaven" 100
 end
 
 //=====================================
@@ -109,6 +122,7 @@ end
 13
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 8 0 1 1 1 1 1 "Guardian Angel" 23
+1 8 0 1 1 1 1 1 "Imp" 28
 end
 
 //=====================================
@@ -117,6 +131,7 @@ end
 14
 //Index Slot Skill Width Height Serial Option Drop Name Value Level
 0 -1 0 1 1 1 1 1 "Apple" 5 1
+1 -1 0 1 1 1 1 1 "Small Healing Potion" 10 10
 end
 
 //=====================================
@@ -125,4 +140,5 @@ end
 15
 //Index Slot Skill Width Height Serial Option Drop Name Level
 0 -1 0 1 2 1 1 1 "Scroll of Poison" 30
+1 -1 0 1 2 1 1 1 "Scroll of Meteorite" 21
 end
