@@ -1,0 +1,16 @@
+//==============================================================
+// SHOP
+//==============================================================
+//SLOTS X = 0~7 , Y = 0~14 , * = Orden original
+//IndexLevelDurSkillLuckOptionExcOpSlotXSlotYComment
+07,0050*0000**//Leather Helm
+08,0050*0000**//Leather Helm
+09,0050*0000**//Leather Helm
+10,0050*0000**//Leather Helm
+
+00,0000*0000**//Kris
+
+06,0000*0000**//Small Shild
+
+
+end
